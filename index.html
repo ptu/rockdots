@@ -7,22 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Rock Dots</title>
-
+    <link rel="stylesheet" href="assets/skeleton/css/normalize.css">
+    <link rel="stylesheet" href="assets/skeleton/css/skeleton.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
 
-<div style="display:flex;justify-content:center;align-items:center;">
-        <img src="assets/not-a-banana.gif" />
-        <video width="960" height="720" autoplay loop>
-            <source src="assets/rockdots.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
-        <img src="assets/not-a-banana.gif" />
+<div class="container">
+    <div class="row pics">
+        <div class="four columns">
+            <img class="mario" src="assets/not-a-banana.gif" />
+        </div>
+         <div class="four columns">
+            <img class="mossmann" src="assets/mossmann.gif" />
+        </div>
+        <div class="four columns">
+            <img class="mario" src="assets/not-a-banana.gif" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve collumns">
+            <video id="rockdots" autoplay loop>
+                <source src="assets/rockdots_sd.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="row pics">
+        <div class="six columns">
+            <img class="mario" src="assets/not-a-banana.gif" />
+        </div>
+        <div class="six columns">
+            <img class="mario" src="assets/not-a-banana.gif" />
+        </div>
+    </div>
 </div>
-
-
 
 </body>
 

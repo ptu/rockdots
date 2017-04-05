@@ -1,0 +1,3 @@
+[submodule "assets/skeleton"]
+	path = assets/skeleton
+	url = https://github.com/dhg/Skeleton
